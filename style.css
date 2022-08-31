@@ -49,12 +49,31 @@ header:hover {
 }
 
 aside {
-    background: hsla(0, 0%, 80%);
+    background: rgb(249, 230, 191);
     padding: 10px;
+    margin-top: auto;
     width: 200px;
-    margin-left: auto;        
+    margin-left: auto; 
+    border-radius: 15px;   
+    vertical-align: 20%;    
 }
 
-section, h2 {
+h2 {
     padding: 0 200px;
+} 
+
+section {
+    border: 2px solid rgb(203, 197, 163);
+    border-radius: 15px;
+    margin-left: 200px;
+    background-color: rgb(254, 248, 241);
+}
+
+article section{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+img {
+    width: 600px;
 }
