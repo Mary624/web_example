@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="author" content="Maria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+        aside {
+            background: hsla(0, 0%, 80%);
+            padding: 10px;
+            width: 200px;
+            margin-left: auto;        
+        }
+
+        .container {
+            padding: 0 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Страница с планами</h1>
+        <nav>
+            <a href="index.html">На главную</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <form>
+            <p><b>Добавить план</b></p>
+            <p>Название плана</p>
+            <br>
+            <input type="text">
+            <br>
+            <p>Подробности</p>
+            <br>
+            <textarea rows="10" cols="45" name="text">Введите текст</textarea>
+            <br>
+            <p>Дата</p>
+            <br>
+            <input type="date">
+            <br>
+            <select>
+                <option value="1">Важно</option>
+                <option value="2">Неважно</option>
+            </select>
+            <br>
+            <input type="submit" value="Добавить">
+        </form>
+    </main>
+</body>
+</html>
