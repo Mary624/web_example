@@ -51,12 +51,12 @@ header:hover {
 aside {
     background: rgb(249, 230, 191);
     padding: 10px;
-    margin-top: auto;
     width: 200px;
     margin-left: auto; 
     border-radius: 15px;   
-    vertical-align: 20%;    
+    display: block;
 }
+
 
 h2 {
     padding: 0 200px;
@@ -67,6 +67,12 @@ section {
     border-radius: 15px;
     margin-left: 200px;
     background-color: rgb(254, 248, 241);
+}
+
+div.txt {
+    padding-left: 2em;
+    /* display: -webkit-flex; */
+    display: flex;
 }
 
 article section{
