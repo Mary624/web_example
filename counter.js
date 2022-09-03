@@ -1,9 +1,9 @@
-export function setupCounter(element) {
-  let counter = 0
-  const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
+import './style.css'
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
   }
-  element.addEventListener('click', () => setCounter(++counter))
-  setCounter(0)
-}
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }

@@ -2,9 +2,8 @@
     --header-height: 7em;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(media/heart.svg.png) repeat-y;
-    background-size:180px 180px;
-    background-position: bottom 80px left 10px;
+    background: url(media/heart.svg.png) 10px 20px repeat-y;
+    background-size: 180px 180px;
 }
 
 h1 {
@@ -83,3 +82,29 @@ article section{
 img {
     width: 600px;
 }
+
+.form-popup {
+    display: none;
+    position: fixed;
+    right: 2em;
+    border: 2px solid rgb(203, 197, 163);
+    border-radius: 15px;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+     background-color:#f0e0c0;
+}
+
+#open-button {
+    margin-top: 0.5em;
+    position: absolute;
+    right: 1em;
+    background-color: #ffe4c4;
+    border: thick double rgb(203, 197, 163);
+    border-radius: 15px;
+    margin-right: 0em;
+}
+

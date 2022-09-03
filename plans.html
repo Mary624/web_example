@@ -18,27 +18,26 @@
         <hr>
     </header>
     <main>
-        <form>
-            <p><b>Добавить план</b></p>
-            <p>Название плана</p>
-            <br>
-            <input type="text">
-            <br>
-            <p>Подробности</p>
-            <br>
-            <textarea rows="10" cols="45" name="text">Введите текст</textarea>
-            <br>
-            <p>Дата</p>
-            <br>
-            <input type="date">
-            <br>
-            <select>
-                <option value="1">Важно</option>
-                <option value="2">Неважно</option>
-            </select>
-            <br>
-            <input type="submit" value="Добавить">
-        </form>
+        <script src="counter.js"></script>
+        <div style="padding-right: 1em;">
+            <button id="open-button" onclick="openForm()" type="button">Добавить план</button>
+        </div>
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+                <p><b>Добавить план</b></p>
+                <p>Название плана</p>
+                <input type="text">
+                <p>Подробности</p>
+                <textarea rows="10" cols="45" name="text">Введите текст</textarea>
+                <p>Дата</p>
+                <input type="date">
+                <select>
+                    <option value="1">Важно</option>
+                    <option value="2">Неважно</option>
+                </select>
+                <input type="submit" value="Добавить" onclick="closeForm()">
+            </form>
+        </div>
     </main>
 </body>
 </html>
