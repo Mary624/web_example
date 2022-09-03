@@ -1,13 +1,12 @@
 
 function openForm() {
-    console.log("Aaa");
     document.getElementById("myForm").style.display = "block";
   }
   
   function closeForm() {
+    var sectionTest = document.createElement('section');
+    sectionTest.innerHTML = "<strong>Всем привет!</strong> Вы прочитали важное сообщение.";
+    var divTest = document.getElementById("main-div")
+    divTest.appendChild(sectionTest);
     document.getElementById("myForm").style.display = "none";
-    let section = document.createElement('section');
-    section.innerHTML = "<strong>Всем привет!</strong> Вы прочитали важное сообщение.";
-    let div = document.getElementById("main-div")
-    div.append(section);
   }
